@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const MainNav = styled.nav`
-  background: transparent;
+  background: var(--light-color);
   position: sticky;
   top: 0;
   z-index: 2;
