@@ -1,11 +1,13 @@
 import './App.css';
+import NavBar from './components/NavBar'
+import Header from './components/Header'
+
 
 function App() {
   return (
     <div className="App">
-      <header>
-        Roast Logger
-      </header>
+      <NavBar />
+      <Header />
     </div>
   );
 }
